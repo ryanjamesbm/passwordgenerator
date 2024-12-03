@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script href="index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- 
-    Top section
-    Header text "Generate a random password"
-    Paragraph text "Never use an insecure password again"
-
-    Button = "Generate passwords" - onclick = generatePassword()
-    -->
-
-    <!--
-    Password section
-
-    Line break
-
-    Password button - option 1
-    Password button - option 2
-    -->
+    <section id="content">
+        <section id="top">
+            <div class="heading-section">
+                <h1 class="heading">Generate a <br><strong>random password</strong></h1>
+                <h3 class="subheading">Never use an insecure password again</h3>
+            </div>
+            <div class="generate-button">
+                <button onclick="generatePassword()">Generate passwords</button>
+            </div>
+        </section>
+        <section id="bottom">
+            <hr id="horizontal-rule">
+            <div class="line-break"></div>
+            <div class="password-buttons">
+                <button></button>
+                <button></button>
+            </div>
+        </section>
+    </section>
 </body>
 </html>

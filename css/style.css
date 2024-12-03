@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body, html{
+    font-size: 16px;
+    background-color:black;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", 'Times New Roman', Times;
+}
+
+#content{
+    background-color: #1F2937;
+    padding: 70px;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    font-family: "Karla", 'Times New Roman', Times;
+    font-size: 40px;
+}
+
+h3{
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+strong{
+    color: #55F991;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+#top{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-section h1{
+    margin-bottom: 5px;
+}
+
+.heading-section h3{
+    margin-bottom: 40px;
+}
+
+.generate-button{
+    
+}
+
+.generate-button button{
+    background-color: #10B981;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+#bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+    border: 0;
+    border-top: 2px solid #2F3E53;
+    margin: 20px 0;
+}
+
+.password-buttons button{
+    background-color: #273549;
+    padding: 20px 50px 20px 50px;
+    border: none;
+    border-radius: 5px;
+    color: #55F991;
+}
