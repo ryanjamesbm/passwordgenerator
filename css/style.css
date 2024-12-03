@@ -15,6 +15,8 @@ body, html{
 #content{
     background-color: #1F2937;
     padding: 70px;
+    min-width: 50vw;
+    min-height: 50vh;
 }
 
 h1{
@@ -79,8 +81,18 @@ hr{
 
 .password-buttons button{
     background-color: #273549;
-    padding: 20px 50px 20px 50px;
+    padding: 10px 30px 10px 30px;
     border: none;
     border-radius: 5px;
     color: #55F991;
+    width: 23vw;
+}
+
+.password-buttons button:hover{
+    background-color: #10B981;
+    color: white;
+}
+
+#pword-button-1{
+    margin-right: 20px;
 }
