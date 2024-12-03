@@ -3,6 +3,7 @@ const pwordCharacters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N"
 
 const option1El = document.getElementById("pword-button-1")
 const option2El = document.getElementById("pword-button-2")
+const copyEl = document.getElementById("copy-text")
 
 let pwordOptionOne = ""
 let pwordOptionTwo = ""
@@ -18,4 +19,12 @@ function generatePassword() {
     }
     option1El.textContent = pwordOptionOne;
     option2El.textContent = pwordOptionTwo;
+}
+
+
+
+function copyText(button){
+    const textToCopy = button.textContent;
+    navigator.clipboard.writeText(textToCopy)
+    copyEl.textContent = "✅ Password copied to your clipbboard"
 }
